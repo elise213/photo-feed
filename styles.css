@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(228, 224, 224);
+    }
+    
+* {
+    /* border: 2px solid green; */
+    }
+
+.post {
+    margin: auto;
+    background-color: white;
+    width: 600px;
+    height: auto;
+    margin-bottom: 50px;
+    }
+
+.header {
+    height: 3%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px;
+    }
+
+.header * {
+        font-size: medium;
+        font-weight: bold;
+        }
+
+.header p + p {
+    color: grey;
+    }
+
+.picture{
+    height: 55%;
+    background-color: white;
+    margin: auto;
+    }
+
+.postPicture {
+    width: 100%;
+    }
+
+.footer {
+    padding: 10px;
+    background-color: white;
+    }
